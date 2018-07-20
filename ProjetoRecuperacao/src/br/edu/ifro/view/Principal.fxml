@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.control.PrincipalController">
+    <children>
+        <Button fx:id="soma" layoutX="86.0" layoutY="186.0" onAction="#handleButtonAction" text="Soma" />
+      <TextField fx:id="txtNumero1" layoutX="86.0" layoutY="35.0" />
+      <TextField fx:id="txtNumero2" layoutX="86.0" layoutY="88.0" />
+      <Label layoutX="86.0" layoutY="14.0" text="Número 1" />
+      <Label layoutX="86.0" layoutY="71.0" text="Número 2" />
+      <TextField fx:id="txtResultado" layoutX="86.0" layoutY="142.0" />
+      <Label layoutX="86.0" layoutY="125.0" text="Resultado" />
+      <Button layoutX="183.0" layoutY="186.0" onAction="#handleButtonAction" onMouseClicked="#menos" text="Menos" />
+      <Button layoutX="86.0" layoutY="231.0" onAction="#handleButtonAction" onMouseClicked="#vezes" text="Vezes" />
+      <Button layoutX="184.0" layoutY="231.0" onAction="#handleButtonAction" onMouseClicked="#dividir" text="Dividir" />
+      <Button layoutX="135.0" layoutY="508.0" onMouseClicked="#gravar" text="Gravar" />
+      <Label layoutX="86.0" layoutY="445.0" text="Cor" />
+      <TextField fx:id="txtCor" layoutX="86.0" layoutY="462.0" />
+      <Label layoutX="86.0" layoutY="391.0" text="Ano" />
+      <Label layoutX="86.0" layoutY="334.0" text="Modelo" />
+      <TextField fx:id="txtAno" layoutX="86.0" layoutY="408.0" />
+      <TextField fx:id="txtModelo" layoutX="86.0" layoutY="355.0" />
+      <Label layoutX="83.0" layoutY="304.0" text="Carro" />
+    </children>
+</AnchorPane>
